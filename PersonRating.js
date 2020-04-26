@@ -1,6 +1,8 @@
 class PersonRating extends Component {
   constructor(data) {
     super(data);
+    // Should improve: 
+    // Names are plural yet the component seem to intend one person
     this._names = data.names;
     this._ratings = data.ratings;
   }

@@ -1,3 +1,5 @@
+// Could be improved: 
+// You don't really need to wrap objects properties in quotes
 const RATING_LIST = {
   'names': [
     `User`,

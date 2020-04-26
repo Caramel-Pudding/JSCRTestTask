@@ -1,6 +1,8 @@
 class Form extends Component {
     constructor() {
         super();
+        // Could improve:
+        // Do we really need to nullify _element in constructor?
         this._element = null;
 
         this._onSubmit = this._onSubmit.bind(this);
